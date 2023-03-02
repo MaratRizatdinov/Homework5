@@ -1,0 +1,122 @@
+@media (max-width: 1199px) {
+  .main__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .main__game1, .main__game2 {
+    flex-direction: column;
+    height: 1000px;
+  }
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__title {
+    text-align: center;
+  }
+  .header__text {
+    text-align: center;
+  }
+  .game1__content, .game2__content, .game3__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 0;
+  }
+  .game1__title, .game2__title, .game3__title {
+    text-align: center;
+  }
+  .game1__text, .game2__text, .game3__text {
+    text-align: center;
+  }
+  .game1__imgbox, .game2__imgbox, .game3__imgbox {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 650px) {
+  .header__title {
+    font-size: 44px;
+  }
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (max-width: 485px) {
+  .header__title {
+    font-size: 32px;
+  }
+  .main__game1, .main__game2 {
+    justify-content: flex-start;
+    height: 654px;
+  }
+  .game1__imagebig, .game2__imagebig, .game3__imagebig {
+    display: none;
+  }
+  .game1__imagesmall, .game2__imagesmall, .game3__imagesmall {
+    display: block;
+    padding-top: 42px;
+  }
+  .game1__title, .game2__title, .game3__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    padding-top: 51px;
+  }
+  .game1__text, .game2__text, .game3__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 32px;
+  }
+}
+@media (max-width: 375px) {
+  .header {
+    max-width: 375px;
+    height: 735px;
+    background-image: url(../img/bcg-headersmall.jpg);
+  }
+  .header__title {
+    line-height: 39px;
+    padding-top: 239px;
+    text-align: center;
+  }
+  .header__text {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 343px;
+    padding-top: 32px;
+    text-align: center;
+  }
+  .header__button {
+    margin-top: 32px;
+  }
+  .nav__item {
+    width: 343px;
+    padding-left: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 0.2px solid #000315;
+  }
+  .nav__item1 {
+    background-image: url(../img/game1small.jpg);
+  }
+  .nav__item2 {
+    background-image: url(../img/game2small.jpg);
+  }
+  .nav__item3 {
+    background-image: url(../img/game3small.jpg);
+  }
+  .main__game3 {
+    background-image: url(..//img/bcg-game3small.jpg);
+  }
+  .game3__content {
+    border-top: 1px solid #000315;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
